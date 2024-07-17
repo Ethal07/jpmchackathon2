@@ -24,3 +24,4 @@ function clearRecipes() {
 }
 
 window.onload = retrieveRecipes();
+searchButton.onclick = storeRecipe();
